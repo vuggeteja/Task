@@ -1,0 +1,29 @@
+#loginid{
+    /* background-image: url("C:\Users\Duranc\Downloads\CCTV-Bullet-Camera.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#id{
+    margin-top: 13rem;
+    margin-bottom: 17rem;
+}
+
+.login-header{
+    text-align: center;
+}
+
+.col-lg-4{
+    width: 100%;
+}
+
+.form-group{
+    padding-left: 35px;
+}
+
+#login{
+    margin-top: 12rem;
+    margin-bottom: 19rem;
+}
+

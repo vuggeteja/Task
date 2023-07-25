@@ -1,0 +1,11 @@
+.apexcharts-legend.apexcharts-align-center.apx-legend-position-top{
+  right: 0px;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+ background-color: azure;
+}

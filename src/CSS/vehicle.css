@@ -1,0 +1,41 @@
+.mb-4{
+    font-size: 30px;
+}
+
+.card{
+    width: 21vw;
+    margin-bottom: 10px;
+}
+
+.card-body{
+    width: 20vw;
+    height: 42vh;
+}
+
+/* vehicle.css */
+.legend-box {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .box {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .in-legend .box {
+    background-color: rgba(54, 162, 235, 0.7); /* Color for In Vehicles */
+  }
+  
+  .out-legend .box {
+    background-color: rgba(255, 99, 132, 0.7); /* Color for Out Vehicles */
+  }
+
+  .in-legend, .out-legend{
+    font-size: 14px;
+  }
+  
+  

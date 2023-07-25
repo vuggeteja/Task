@@ -1,0 +1,74 @@
+/* Sidebar.css */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -100px; /* Move the sidebar outside the view initially */
+    width: 100px;
+    height: 100vh;
+    background-color: #f8f9fa;
+    transition: left 0.3s ease; /* Add a transition effect to the sidebar */
+  }
+  
+  .sidebar.open {
+    left: 0; /* Show the sidebar when it is hovered */
+  }
+  
+  .sidebar-toggle {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar-nav {
+    margin-top: 50px;
+  }
+  
+  .navbar-nav .nav-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .nav-link .fa-icon {
+    margin-bottom: 5px;
+  }
+  
+  .nav-label {
+    display: none;
+  }
+  
+  .sidebar.open .nav-label {
+    display: block;
+  }
+  
+  .content {
+    margin-left: 120px; /* Adjust the margin to make space for the expanded sidebar */
+    padding: 20px;
+  }
+
+  .css-vj11vy.ps-menu-root {
+    /* background: palevioletred; */
+    margin-bottom: -15px;
+}
+
+.css-dip3t8{
+    background-image: url("https://arvid-html.vercel.app/images/body/12.jpg");
+}
+  
+.css-1tqrhto >.ps-menu-button{
+    background-color: lightsalmon;
+    padding-left: 18px !important;
+}
+
+.css-1t8x7v1 >.ps-menu-button, .css-16jesut >.ps-menu-button{
+    padding-left: 13px !important;
+}
